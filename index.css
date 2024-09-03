@@ -1,0 +1,47 @@
+.navbar{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.nave{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+
+}
+.section{
+    text-align: center;
+    padding: 80px;
+}
+.mytem{
+    display: flex;
+    gap: 40px;
+    width: 1000px;
+    margin: 5px;
+    margin: 0 auto;
+    align-items: center;
+}
+.fullitem{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 40px;
+}
+.start{
+    display: flex;
+    gap: 40px;
+    width: 1000px;
+    margin: 5px;
+    margin:0 auto;
+    padding: 40px;
+    position: relative;
+}
+.myback{
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    position: absolute;
+    
+
+}
+

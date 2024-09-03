@@ -1,0 +1,309 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    
+    font-family: 'Work Sans', sans-serif;
+}
+header{
+    /* margin: 0px 100px 0px; */
+    padding: 30px 0px 30px;
+    height: auto;
+    
+}
+.btn-primary{
+    background-color: tomato;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+/* menubar style start here */
+.menu-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 20px 130px 50px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+}
+nav ul li{
+    display: inline;
+    
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+.header-text{
+    width: 450px;
+    
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.header-text > h1, p, button{
+    margin-bottom: 20px;
+}
+.img{
+    margin: 0 auto;
+    width: 80%;
+}
+.img img{
+    width: 100%;
+    
+}
+/* main section start here */
+.work-explain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+    gap: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+.img-explain{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.explain-text > h1, p, button{
+    margin-bottom: 10px;
+}
+#tomato{
+    color: rgb(240, 114, 198);
+}
+#light{
+    color: rgb(145, 145, 55);
+}
+/* feature section start here */
+.feature-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    gap: 10px;
+    
+    margin-bottom: 20px;
+}
+.feature-text{
+    width: 100%;
+   
+   height: 750px;
+   margin-bottom: 22px;
+}
+.feature-topic{
+    width: 100%;
+    margin-bottom: 100px;
+}
+.feature-img{
+    width: 100%;
+}
+.feature-img img{
+    width: 100%;
+}
+.feature-btn{
+    border: none;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 1.5rem;
+    position: relative;
+    top: -70px;
+    left: -40px;
+}
+/* fact section start here */
+.fact-section{
+    margin-left: 10%;
+    width: 400px;
+}
+/* review section start here */
+.review-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px;
+    gap: 40px;
+}
+.review-section > div{
+    border: 1px solid tomato;
+    text-align: center;
+    padding: 30px;
+    border-radius: 5px;
+}
+/* company data section */
+.data-section{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.data-section table{
+    border: 1px solid tomato;
+}
+.data-section table td{
+    padding: 20px;
+
+}
+
+.our-company-data{
+    width: 400px;
+    text-align: center;
+}
+.our-sponsore{
+    width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+.sponsore-section{
+    display: flex;
+    justify-content: center;
+    margin: 40px 0px 20px;
+    gap: 40px;
+    gap: 70px;
+}
+.sponsore-section img{
+    width: 150px;
+}
+.footer{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(240, 188, 179);
+    padding: 20px;
+    border-radius: 5px;
+}
+/* -------------------------------
+ media quary start here 
+ -------------------------------------
+ -----------------------------------
+ ----------------------------------*/
+@media screen and (max-width:577px){
+    header{
+        width: 100%;
+        height: auto;
+        background-color: #fff;
+    }
+    .menu-bar{
+        flex-direction: column;
+        width: 100%;
+        margin: 0px 0px 0px;
+        
+    }
+    nav ul{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .header-text{
+        width: 100%;
+        
+        text-align: center;
+        margin: 0 auto;
+        padding: 30px 0px;
+    }
+    .img{
+        margin: 0 auto;
+        width: 100%;
+        padding: 5px;
+    }
+    .work-explain{
+        flex-direction: column-reverse;
+        margin: 0 auto;
+        padding: 30px 10px;
+
+    }
+    .img-explain{
+        grid-template-columns: repeat(1, 1fr);
+       width: 100%;
+    }
+    .explain-text > h1, p, button{
+        margin-bottom: 10px;
+    }
+    .explain-text{
+        width: 100%;
+    }
+    .explain-text button{
+      position: relative;
+      left: 35%;
+    }
+    .feature-section{
+        flex-direction: column;
+    }
+    .feature-btn{
+        border: none;
+        width: 150px;
+        height: 150px;
+        border-radius: 10px;
+        background-color: tomato;
+        font-size: 1.5rem;
+        position: relative;
+        top: -50px;
+        left: 30%;
+    }
+    .review-section{
+        flex-direction: column; 
+        margin: 0 auto;
+        align-items: center;
+        margin: 30px 0px 20px;
+    }
+    .review-section > div{
+        width: 200px;
+        border: 1px solid tomato;
+        text-align: center;
+        padding: 10px;
+        border-radius: 5px;
+    }
+    .data-section{
+       flex-direction: column-reverse;
+        align-items: center;
+        gap: 30px;
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 80px;
+        margin-bottom: 80px;
+    }
+    .data-section table{
+        border: 1px solid tomato;
+    }
+    .data-section table td{
+        padding: 20px;
+        
+    }
+    .our-company-data{
+        margin: 0 auto;
+        padding: 20px 10px;
+    }
+    .sponsore-section{
+        flex-direction: column;
+        justify-content: center;
+        margin: 40px 0px 20px;
+        align-items: center;
+        gap: 50px;
+        margin: 20px 0px 20px;
+    }
+    .sponsore-section img{
+        width: 150px;
+    }
+    .footer{
+        width: 100%;
+        margin: 0 auto;
+    }
+}
