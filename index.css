@@ -25,7 +25,8 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 20px;
-    padding: 40px;
+    margin-top: 50px;
+    
 }
 .start{
     display: flex;
@@ -34,14 +35,97 @@
     margin: 5px;
     margin:0 auto;
     padding: 40px;
+    
+    
+}
+.start{
     position: relative;
 }
-.myback{
-    background-color: red;
-    height: 100px;
-    width: 100px;
-    position: absolute;
+
     
 
+.myback{
+    background-color: red;
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    left: 300px;
+    top: 1000px;
+    text-align: center;
+    padding: 30px;
+    
+}
+.full{
+    display: flex;
+    gap: 20px;
+    width: 1000px;
+    margin: 10px;
+    margin: 0 auto;
+    padding: 60px;
+    
+}
+.full2{
+    border: 3px solid brown;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+
+}
+
+.mytable{
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    margin: 10px;
+
+
+}
+.myyou{
+width: 1000px;
+margin: 0 auto;
+padding: 50px;
+}
+table{
+ border-collapse: collapse ;
+ margin: 10px;
+}
+th,td{
+    border: 6px solid purple;
+    padding: 10px;
+}
+.telent{
+    align-items: center;
+    
+}
+.myimage{
+    width: 1000px;
+    
+}
+.mymen{
+    text-align: center;
+}
+.myour{
+    text-align: center;
+    padding: 40px;
+}
+.img3{
+    display: flex;
+    gap: 25px;
+    width: 1000px;
+    margin: 5px;
+    margin: 0 auto;
+    padding: 10px;
+}
+.boxx{
+    background-color: bisque;
+    height: 100px;
+    width: 1000px;
+    margin:0 auto;
+    padding: 20px;
+    
+}
+.close{
+    text-align: center;
+    padding: 10px;
 }
 
